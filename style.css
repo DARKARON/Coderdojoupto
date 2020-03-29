@@ -1,0 +1,306 @@
+@import url('https:/fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+body{
+    /*background-color: rgb(241, 241, 241);*/
+    background-color: #FFF9C4;
+    background-image: url("./immagini/bananas.png");
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+	font-size: attr(data-fsize px, 16);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	height: 3em;
+    background-color: #FFF9C4;
+}
+
+.bg-top {
+    padding: 0 ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px #333;
+    z-index: 999;
+}
+
+h2.right{
+    font-size: 50%;
+    margin: 2em 5em;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin: .33em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#intro {
+	position: absolute;
+	z-index: 980;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    border-radius: 0 0 8px 8px;
+	background-repeat: no-repeat;
+	background-position: center 1em;
+	background-size: 50%;
+	align-items: center;
+	font-size: 200%;
+	line-height: 75%;
+	background-color: white;
+}
+
+.meet #ticker,
+.meet #intro {
+	display: none;
+}
+
+#intro img {
+    width: 425px;
+}
+
+
+#intro h1 {
+	margin-top: 1em;
+	}
+
+
+#board {
+	display: flex;
+	flex-direction:row;
+	margin-top: 4em;
+	width: 100%;
+	overflow: hidden;
+	align-content: space-between;
+}
+
+#board .left,
+#board .right {
+	display: flex;
+	flex-grow: 0;
+	flex-direction: column;
+	width: 10em;
+	overflow: hidden;
+	transition: width 0.75s;
+}
+
+#board .content {
+	flex-grow: 8;
+	}
+
+ /* #board img {
+	width: 10em;
+	height: 9em;
+}
+*/
+.container {
+	flex-grow: 8;
+	border: 1px solid gray;
+	background-color: white;
+	margin: 0 1em;
+	height: 75vh;
+	width: 75wv;
+	position: relative;
+	border-radius: 0.5em;
+	}
+
+a {
+	display: block;
+	position: relative;
+	width: 10em:
+	height: 8em;
+	}
+
+#mainhall {
+	z-index: 1000;
+	border-radius: 0 0 0.5em 0.5em;
+	top: -9em;
+	position: absolute;
+	margin-top: 0;
+	left: 75%;
+	transition: top 0.75s 0.5s;
+}
+
+.zoo #mainhall {
+	top:-4em;
+}
+
+.zoo #board .right,
+.zoo #board .left {
+	width: 0;
+	transition: width 0.75s;
+}
+
+/*
+.zoo a.paguro,
+.zoo a.ippo,
+.zoo a.gorilla,
+.zoo a.volpe,
+.zoo a.kakapo,
+.zoo a.lupo,
+.zoo a.lince,
+.zoo a.orca,
+.zoo a.coyote,
+.zoo a.foca,
+.zoo a.ornitorinco,
+.zoo a.koala {
+	display:none;
+}
+*/
+
+.zoo.koala .hall[href="#koala"],
+.zoo.ornitorinchi .hall[href="#ornitorinchi"],
+.zoo.foche .hall[href="#foche"],
+.zoo.coyote .hall[href="#coyote"],
+.zoo.orche .hall[href="#orche"],
+.zoo.linci .hall[href="#linci"],
+.zoo.lupi .hall[href="#lupi"],
+.zoo.kakapi .hall[href="#kakapi"],
+.zoo.volpi .hall[href="#volpi"],
+.zoo.gorilla .hall[href="#gorilla"],
+.zoo.ippopotami .hall[href="#ippopotami"],
+.zoo.paguri .hall[href="#paguri"] {
+    position: absolute;
+    top: -7em;
+    z-index: 1250;
+	transition: top 1s;
+}
+
+
+.zoo.koala .hall[href="#koala"],
+.zoo.ornitorinchi .hall[href="#ornitorinchi"],
+.zoo.foche .hall[href="#foche"],
+.zoo.coyote .hall[href="#coyote"],
+.zoo.orche .hall[href="#orche"],
+.zoo.linci .hall[href="#linci"] {
+    right: 0;
+}
+
+a.paguro,
+a.ippo,
+a.gorilla,
+a.volpe,
+a.kakapo,
+a.lupo,
+a.lince,
+a.orca,
+a.coyote,
+a.foca,
+a.ornitorinco,
+a.koala {
+	display:block;
+}
+/* background */
+
+.command {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width:10em;
+	height: 8em;
+	margin-top: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid darkgray;
+	}
+
+.left .command {
+	border-radius: 0 0.5em 0.5em 0;
+}
+
+.right .command {
+	border-radius: 0.5em 0 0 0.5em;
+	}
+
+.command::after {
+	content: attr(data-descr);
+	position: absolute;
+	bottom: 0;
+	background-color: blue;
+	color: white;
+	width: 100%;
+	text-align: center;
+	height: 1.5em;
+	padding-top: 0.5em;
+	font-weight: bold;
+}
+
+
+
+
+a.zoo {
+	background-image: url("./immagini/leone.jpg");
+}
+a.paguro {
+ 	background-image: url("./immagini/paguro.jpg");
+ }
+ a.ippo {
+ 	background-image: url("./immagini/ippo.jpg");
+ }
+ a.gorilla {
+	 background-image: url("./immagini/gorilla.jpg");
+ }
+ a.volpe {
+	background-image: url("./immagini/volpe-artica.jpg");
+}
+a.kakapo {
+ 	background-image: url("./immagini/kakapo.jpg");
+ }
+a.lupo {
+	background-image: url("./immagini/lupo.jpg");
+}
+a.lince {
+ background-image: url("./immagini/lince.jpg");
+}
+a.orca {
+	background-position: -4em;
+	background-image: url("./immagini/orca.jpg");
+}
+a.coyote {
+ background-image: url("./immagini/coyote.jpg");
+ }
+a.foca {
+	background-position: -1em;
+ background-image: url("./immagini/foca.jpg");
+ }
+ a.ornitorinco {
+	background-image: url("./immagini/ornitorinco.jpg");
+}
+a.koala {
+	background-image: url("./immagini/koala.jpg");
+}
+
+
+/*for colors*/
+/*https://material.io/design/color/#tools-for-picking-colors*/
+/*
+.row.one{ background-color: #7986CB; }
+.row.two{ background-color: #81C784; }
+.row.three{ background-color: #E57373; }
+.row.four{ background-color: #A1887F; }
+.row.five{ background-color: #90A4AE; }
+.row.six{ background-color: #CE93D8; }
+.row.seven{ background-color: #FFF176; }
+.row.eight{ background-color: #FFB74D; }
+.row.nine{background-color: #E0E0E0; }
+.row.ten{ background-color: #4FC3F7; }
+.row.eleven{ background-color: #F06292; }
+.row.twelve{ background-color: #616161; }
+*/

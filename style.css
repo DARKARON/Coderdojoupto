@@ -149,7 +149,7 @@ a {
 }
 
 /*
-.zoo a.paguro,
+.zoo a.giraffa,
 .zoo a.ippo,
 .zoo a.gorilla,
 .zoo a.volpe,
@@ -193,7 +193,7 @@ a {
     right: 0;
 }
 
-a.paguro,
+a.giraffa,
 a.ippo,
 a.gorilla,
 a.volpe,
@@ -249,7 +249,7 @@ a.zoo {
 	background-image: url("./immagini/leone.jpg");
 }
 a.paguro {
- 	background-image: url("./immagini/paguro.jpg");
+ 	background-image: url("./immagini/giraffa.jpg");
  }
  a.ippo {
  	background-image: url("./immagini/ippo.jpg");

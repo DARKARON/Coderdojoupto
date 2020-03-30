@@ -149,34 +149,34 @@ a {
 }
 
 /*
-.zoo a.giraffa,
-.zoo a.ippo,
-.zoo a.gorilla,
-.zoo a.volpe,
-.zoo a.kakapo,
-.zoo a.lupo,
-.zoo a.lince,
-.zoo a.orca,
-.zoo a.coyote,
-.zoo a.foca,
-.zoo a.ornitorinco,
-.zoo a.koala {
+.zoo a.rosa,
+.zoo a.verde,
+.zoo a.rosso,
+.zoo a.fuxia,
+.zoo a.salmone,
+.zoo a.giallo,
+.zoo a.viola,
+.zoo a.arancione,
+.zoo a.oliva,
+.zoo a.azzurro,
+.zoo a.nero,
+.zoo a.blu {
 	display:none;
 }
 */
 
-.zoo.koala .hall[href="#koala"],
-.zoo.ornitorinchi .hall[href="#ornitorinchi"],
-.zoo.foche .hall[href="#foche"],
-.zoo.coyote .hall[href="#coyote"],
-.zoo.orche .hall[href="#orche"],
-.zoo.linci .hall[href="#linci"],
-.zoo.lupi .hall[href="#lupi"],
-.zoo.kakapi .hall[href="#kakapi"],
-.zoo.volpi .hall[href="#volpi"],
-.zoo.gorilla .hall[href="#gorilla"],
-.zoo.ippopotami .hall[href="#ippopotami"],
-.zoo.paguri .hall[href="#paguri"] {
+.zoo.blu .hall[href="#blu"],
+.zoo.nero .hall[href="#nero"],
+.zoo.azzurro .hall[href="#azzurro"],
+.zoo.oliva .hall[href="#oliva"],
+.zoo.arancione .hall[href="#arancione"],
+.zoo.viola .hall[href="#viola"],
+.zoo.giallo .hall[href="#giallo"],
+.zoo.salmone .hall[href="#salmone"],
+.zoo.fuxia .hall[href="#fuxia"],
+.zoo.rosso .hall[href="#rosso"],
+.zoo.verde .hall[href="#verde"],
+.zoo.rosa .hall[href="#rosa"] {
     position: absolute;
     top: -7em;
     z-index: 1250;
@@ -184,27 +184,27 @@ a {
 }
 
 
-.zoo.koala .hall[href="#koala"],
-.zoo.ornitorinchi .hall[href="#ornitorinchi"],
-.zoo.foche .hall[href="#foche"],
-.zoo.coyote .hall[href="#coyote"],
-.zoo.orche .hall[href="#orche"],
-.zoo.linci .hall[href="#linci"] {
+.zoo.blu .hall[href="#blu"],
+.zoo.nero .hall[href="#nero"],
+.zoo.azzurro .hall[href="#azzurro"],
+.zoo.oliva .hall[href="#oliva"],
+.zoo.arancione .hall[href="#arancione"],
+.zoo.viola .hall[href="#viola"] {
     right: 0;
 }
 
-a.giraffa,
-a.ippo,
-a.gorilla,
-a.volpe,
-a.kakapo,
-a.lupo,
-a.lince,
-a.orca,
-a.coyote,
-a.foca,
-a.ornitorinco,
-a.koala {
+a.rosa,
+a.verde,
+a.rosso,
+a.fuxia,
+a.salmone,
+a.giallo,
+a.viola,
+a.arancione,
+a.oliva,
+a.azzurro,
+a.nero,
+a.blu {
 	display:block;
 }
 /* background */
@@ -246,45 +246,45 @@ a.koala {
 
 
 a.zoo {
-	background-image: url("./immagini/leone.jpg");
+	background-image: url("./immagini/leone.png");
 }
 a.paguro {
- 	background-image: url("./immagini/giraffa.jpg");
+ 	background-image: url("./immagini/rosa.png");
  }
  a.ippo {
- 	background-image: url("./immagini/ippo.jpg");
+ 	background-image: url("./immagini/verde.png");
  }
  a.gorilla {
-	 background-image: url("./immagini/gorilla.jpg");
+	 background-image: url("./immagini/rosso.png");
  }
  a.volpe {
-	background-image: url("./immagini/volpe-artica.jpg");
+	background-image: url("./immagini/fuxia.png");
 }
 a.kakapo {
- 	background-image: url("./immagini/kakapo.jpg");
+ 	background-image: url("./immagini/salmone.png");
  }
 a.lupo {
-	background-image: url("./immagini/lupo.jpg");
+	background-image: url("./immagini/giallo.png");
 }
 a.lince {
- background-image: url("./immagini/lince.jpg");
+ background-image: url("./immagini/viola.png");
 }
 a.orca {
 	background-position: -4em;
 	background-image: url("./immagini/orca.jpg");
 }
 a.coyote {
- background-image: url("./immagini/coyote.jpg");
+ background-image: url("./immagini/oliva.png");
  }
 a.foca {
 	background-position: -1em;
- background-image: url("./immagini/foca.jpg");
+ background-image: url("./immagini/azzurro.png");
  }
  a.ornitorinco {
-	background-image: url("./immagini/ornitorinco.jpg");
+	background-image: url("./immagini/nero.png");
 }
 a.koala {
-	background-image: url("./immagini/koala.jpg");
+	background-image: url("./immagini/blu.png");
 }
 
 

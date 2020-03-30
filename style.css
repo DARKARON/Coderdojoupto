@@ -8,6 +8,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #111111;
+    font-size: 16px;
 	font-size: attr(data-fsize px, 16);
 	width: 100vw;
 	height: 100vh;
@@ -30,7 +31,7 @@ body a {
 .bg-top {
     padding: 0 ;
     position: fixed;
-    top: 0;
+    top: 10;
     width: 100%;
     overflow: hidden;
     box-shadow: 1px 1px 5px 1px #333;
@@ -60,9 +61,9 @@ h1{
     border-radius: 0 0 8px 8px;
 	background-repeat: no-repeat;
 	background-position: center 1em;
-	background-size: 100%;
+	background-size: 50%;
 	align-items: center;
-	font-size: 100%;
+	font-size: 200%;
 	line-height: 75%;
 	background-color: white;
 }

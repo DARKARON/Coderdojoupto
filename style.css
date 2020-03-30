@@ -3,13 +3,13 @@
 body{
     /*background-color: rgb(241, 241, 241);*/
     background-color: #FFF9C4;
-    background-image: url("./immagini/bananas.png");
+    background-image: url("./immagini/multicolor.jpg");
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #111111;
 	font-size: attr(data-fsize px, 16);
-	width: 100vw;
+	width: 200vw;
 	height: 100vh;
 	overflow: hidden;
 }

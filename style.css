@@ -30,7 +30,7 @@ body a {
 .bg-top {
     padding: 0 ;
     position: fixed;
-    top: 10;
+    top: 0;
     width: 100%;
     overflow: hidden;
     box-shadow: 1px 1px 5px 1px #333;

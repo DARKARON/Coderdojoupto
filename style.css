@@ -8,7 +8,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #111111;
-	font-size: attr(data-fsize px, 10);
+	font-size: attr(data-fsize px, 16);
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
@@ -270,14 +270,12 @@ a.lince {
  background-image: url("./immagini/viola.png");
 }
 a.orca {
-	background-position: -1em;
 	background-image: url("./immagini/arancione.png");
 }
 a.coyote {
  background-image: url("./immagini/oliva.png");
  }
 a.foca {
-	background-position: -1em;
  background-image: url("./immagini/azzurro.png");
  }
  a.ornitorinco {

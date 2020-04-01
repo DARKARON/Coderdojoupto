@@ -1,0 +1,304 @@
+@import url('https:/fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+body{
+    /*background-color: rgb(241, 241, 241);*/
+    background-color: #FFF9C4;
+    background-image: url("./immagini/multicolor.jpg");
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+	font-size: attr(data-fsize px, 16);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	height: 3em;
+    background-color: #FFF9C4;
+}
+
+.bg-top {
+    padding: 0 ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px #333;
+    z-index: 999;
+}
+
+h2.right{
+    font-size: 50%;
+    margin: 2em 5em;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin: .33em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#intro {
+	position: absolute;
+	z-index: 980;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    border-radius: 0 0 8px 8px;
+	background-repeat: no-repeat;
+	background-position: center 1em;
+	background-size: 100%;
+	align-items: center;
+	font-size: 100%;
+	line-height: 75%;
+	background-color: white;
+}
+
+.meet #ticker,
+.meet #intro {
+	display: none;
+}
+
+#intro img {
+    width: 425px;
+}
+
+
+#intro h1 {
+	margin-top: 1em;
+	}
+
+
+#board {
+	display: flex;
+	flex-direction:row;
+	margin-top: 4em;
+	width: 100%;
+	overflow: hidden;
+	align-content: space-between;
+}
+
+#board .left,
+#board .right {
+	display: flex;
+	flex-grow: 0;
+	flex-direction: column;
+	width: 10em;
+	overflow: hidden;
+	transition: width 0.75s;
+}
+
+#board .content {
+	flex-grow: 8;
+	}
+
+ /* #board img {
+	width: 10em;
+	height: 9em;
+}
+*/
+.container {
+	flex-grow: 8;
+	border: 1px solid gray;
+	background-color: white;
+	margin: 0 1em;
+	height: 75vh;
+	width: 75wv;
+	position: relative;
+	border-radius: 0.5em;
+	}
+
+a {
+	display: block;
+	position: relative;
+	width: 10em:
+	height: 8em;
+	}
+
+#mainhall {
+	z-index: 1000;
+	border-radius: 0 0 0.5em 0.5em;
+	top: -9em;
+	position: absolute;
+	margin-top: 0;
+	left: 75%;
+	transition: top 0.75s 0.5s;
+}
+
+.zoo #mainhall {
+	top:-4em;
+}
+
+.zoo #board .right,
+.zoo #board .left {
+	width: 0;
+	transition: width 0.75s;
+}
+
+/*
+.zoo a.rosa,
+.zoo a.verde,
+.zoo a.rosso,
+.zoo a.fuxia,
+.zoo a.salmone,
+.zoo a.giallo,
+.zoo a.viola,
+.zoo a.arancione,
+.zoo a.oliva,
+.zoo a.azzurro,
+.zoo a.nero,
+.zoo a.blu {
+	display:none;
+}
+*/
+
+.zoo.blu .hall[href="#blu"],
+.zoo.nero .hall[href="#nero"],
+.zoo.azzurro .hall[href="#azzurro"],
+.zoo.oliva .hall[href="#oliva"],
+.zoo.arancione .hall[href="#arancione"],
+.zoo.viola .hall[href="#viola"],
+.zoo.giallo .hall[href="#giallo"],
+.zoo.salmone .hall[href="#salmone"],
+.zoo.fuxia .hall[href="#fuxia"],
+.zoo.rosso .hall[href="#rosso"],
+.zoo.verde .hall[href="#verde"],
+.zoo.rosa .hall[href="#rosa"] {
+    position: absolute;
+    top: -7em;
+    z-index: 1250;
+	transition: top 1s;
+}
+
+
+.zoo.blu .hall[href="#blu"],
+.zoo.nero .hall[href="#nero"],
+.zoo.azzurro .hall[href="#azzurro"],
+.zoo.oliva .hall[href="#oliva"],
+.zoo.arancione .hall[href="#arancione"],
+.zoo.viola .hall[href="#viola"] {
+    right: 0;
+}
+
+a.rosa,
+a.verde,
+a.rosso,
+a.fuxia,
+a.salmone,
+a.giallo,
+a.viola,
+a.arancione,
+a.oliva,
+a.azzurro,
+a.nero,
+a.blu {
+	display:block;
+}
+/* background */
+
+.command {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width:10em;
+	height: 8em;
+	margin-top: 0.5em;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid darkgray;
+	}
+
+.left .command {
+	border-radius: 0 0.5em 0.5em 0;
+}
+
+.right .command {
+	border-radius: 0.5em 0 0 0.5em;
+	}
+
+.command::after {
+	content: attr(data-descr);
+	position: absolute;
+	bottom: 0;
+	background-color: blue;
+	color: white;
+	width: 100%;
+	text-align: center;
+	height: 1.5em;
+	padding-top: 0.5em;
+	font-weight: bold;
+}
+
+
+
+
+a.zoo {
+	background-image: url("./immagini/leone.png");
+}
+a.paguro {
+ 	background-image: url("./immagini/rosa.png");
+ }
+ a.ippo {
+ 	background-image: url("./immagini/verde.png");
+ }
+ a.gorilla {
+	 background-image: url("./immagini/rosso.png");
+ }
+ a.volpe {
+	background-image: url("./immagini/fuxia.png");
+}
+a.kakapo {
+ 	background-image: url("./immagini/salmone.png");
+ }
+a.lupo {
+	background-image: url("./immagini/giallo.png");
+}
+a.lince {
+ background-image: url("./immagini/viola.png");
+}
+a.orca {
+	background-image: url("./immagini/arancione.png");
+}
+a.coyote {
+ background-image: url("./immagini/oliva.png");
+ }
+a.foca {
+ background-image: url("./immagini/azzurro.png");
+ }
+ a.ornitorinco {
+	background-image: url("./immagini/nero.png");
+}
+a.koala {
+	background-image: url("./immagini/blu.png");
+}
+
+
+/*for colors*/
+/*https://material.io/design/color/#tools-for-picking-colors*/
+/*
+.row.one{ background-color: #7986CB; }
+.row.two{ background-color: #81C784; }
+.row.three{ background-color: #E57373; }
+.row.four{ background-color: #A1887F; }
+.row.five{ background-color: #90A4AE; }
+.row.six{ background-color: #CE93D8; }
+.row.seven{ background-color: #FFF176; }
+.row.eight{ background-color: #FFB74D; }
+.row.nine{background-color: #E0E0E0; }
+.row.ten{ background-color: #4FC3F7; }
+.row.eleven{ background-color: #F06292; }
+.row.twelve{ background-color: #616161; }
+*/

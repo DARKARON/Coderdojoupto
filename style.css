@@ -152,12 +152,12 @@ a {
 .zoo a.rosa,
 .zoo a.verde,
 .zoo a.rosso,
-.zoo a.fuxia,
-.zoo a.salmone,
+.zoo a.mulricolor,
+.zoo a.bianco,
 .zoo a.giallo,
 .zoo a.viola,
 .zoo a.arancione,
-.zoo a.oliva,
+.zoo a.marrone,
 .zoo a.azzurro,
 .zoo a.nero,
 .zoo a.blu {
@@ -168,11 +168,11 @@ a {
 .zoo.blu .hall[href="#blu"],
 .zoo.nero .hall[href="#nero"],
 .zoo.azzurro .hall[href="#azzurro"],
-.zoo.oliva .hall[href="#oliva"],
+.zoo.marrone .hall[href="#marrone"],
 .zoo.arancione .hall[href="#arancione"],
 .zoo.viola .hall[href="#viola"],
 .zoo.giallo .hall[href="#giallo"],
-.zoo.salmone .hall[href="#salmone"],
+.zoo.bianco .hall[href="#bianco"],
 .zoo.fuxia .hall[href="#fuxia"],
 .zoo.rosso .hall[href="#rosso"],
 .zoo.verde .hall[href="#verde"],
@@ -187,7 +187,7 @@ a {
 .zoo.blu .hall[href="#blu"],
 .zoo.nero .hall[href="#nero"],
 .zoo.azzurro .hall[href="#azzurro"],
-.zoo.oliva .hall[href="#oliva"],
+.zoo.marrone .hall[href="#marrone"],
 .zoo.arancione .hall[href="#arancione"],
 .zoo.viola .hall[href="#viola"] {
     right: 0;
@@ -196,12 +196,12 @@ a {
 a.rosa,
 a.verde,
 a.rosso,
-a.fuxia,
-a.salmone,
+a.mulricolor,
+a.bianco,
 a.giallo,
 a.viola,
 a.arancione,
-a.oliva,
+a.marrone,
 a.azzurro,
 a.nero,
 a.blu {
@@ -258,10 +258,10 @@ a.paguro {
 	 background-image: url("./immagini/rosso.png");
  }
  a.volpe {
-	background-image: url("./immagini/fuxia.png");
+	background-image: url("./immagini/mulricolor.png");
 }
 a.kakapo {
- 	background-image: url("./immagini/salmone.png");
+ 	background-image: url("./immagini/bianco.png");
  }
 a.lupo {
 	background-image: url("./immagini/giallo.png");
@@ -273,7 +273,7 @@ a.orca {
 	background-image: url("./immagini/arancione.png");
 }
 a.coyote {
- background-image: url("./immagini/oliva.png");
+ background-image: url("./immagini/marrone.png");
  }
 a.foca {
  background-image: url("./immagini/azzurro.png");

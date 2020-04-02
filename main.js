@@ -11,8 +11,6 @@
        /* interfaccia */
        document.querySelector("#board").addEventListener('click', hnd_teamswitch);
        document.body.addEventListener('unload', ev=> api.dispose());
-       document.getElementById("shrink").addEventListener('click', hnd_changeZoom);
-       document.getElementById("enlarge").addEventListener('click', hnd_changeZoom);
 
 function hnd_changeZoom(ev) {
 		ev.preventDefault();
@@ -22,8 +20,7 @@ function hnd_changeZoom(ev) {
 		if (step < 0 && actual <= limit) return;
 		if (step > 0 && actual >= limit) return;
 		actual += step;
-		document.body.dataset.fsize = actual;
-		document.body.style="font-size: " + actual + "px;";
+		document.body.dataset.fsize = full;
 }
 
 function hnd_teamswitch(ev) {
